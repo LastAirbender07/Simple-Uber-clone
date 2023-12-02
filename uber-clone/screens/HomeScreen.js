@@ -5,11 +5,7 @@ import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplet
 import { useDispatch } from 'react-redux';
 import { setDestination, setOrigin } from '../slices/navSlice';
 import NavFavourites from '../components/NavFavourites';
-// import { GOOGLE_MAPS_APIKEY } from '@env';
-
-let GOOGLE_MAPS_APIKEY="AIzaSyAlh0kC1ompMCjdzOgFdCKS4cj3l7pD0EQ"
-//This is real API Key!
-
+import { GOOGLE_MAPS_APIKEY } from '@env';
 
 const HomeScreen = () => {
     const dispatch = useDispatch();
