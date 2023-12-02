@@ -8,8 +8,7 @@ import { useNavigation } from '@react-navigation/native'
 import NavFavourites from './NavFavourites'
 import { Icon } from '@rneui/base'
 import RideOptionsCard from './RideOptionsCard'
-
-let GOOGLE_MAPS_APIKEY="AIzaSyAlh0kC1ompMCjdzOgFdCKS4cj3l7pD0EQ"
+import GOOGLE_MAPS_APIKEY from ".env";
 
 const NavigateCard = () => {
     const dispatch = useDispatch();
